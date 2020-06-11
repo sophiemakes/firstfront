@@ -1,0 +1,187 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    color: rgb(233, 216, 168);
+    font-family: 'Raleway', sans-serif;;
+}
+
+/* Home page six shape styles */
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.shape {
+    font-size: 50px;
+    text-align: center; 
+    padding: 60px;
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+    filter: sepia(20%);
+    background-size: cover;   
+}
+
+/*Adding background images to each shape*/
+.shape1 {background-image: url("aboutMe.png");}
+.shape2 {background-image: url("unit1_1.png");} 
+.shape3 {background-image: url("unit1_2.png");}
+.shape4 {background-image: url("unit1_3.png");}
+.shape5 {background-image: url("unit2.png");}
+.shape6 {background-image: url("contact.png");}
+
+
+/* nav bar style */
+.box {
+    color: white);
+    font-size: 30px;
+    text-align: center;
+    padding:5px;
+    margin: 5px;
+    border-radius: 2px;
+    flex: 1;
+    filter: sepia(20%);
+    background-size: cover;
+}
+
+/* attaching images to individual nav bar boxes */
+.box1 {background-image: url("home.png");}
+.box2 {background-image: url("aboutMe.png");}
+.box3 {background-image: url("unit1_1.png");} 
+.box4 {background-image: url("unit1_2.png");}
+.box5 {background-image: url("unit1_3.png");}
+.box6 {background-image: url("unit2.png");}
+
+.menu {
+    display: flex;
+}
+
+
+/* different background images for each page */
+.index {
+    background-image: url("home.png"); 
+    background-color: #cccccc; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.aboutMe {
+    background-image: url("aboutMe.png"); 
+    background-color: #cccccc; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.unit1_1 {
+    background-image: url("unit1_1.png"); 
+    background-color: #cccccc; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.unit1_2 {
+    background-image: url("unit1_2.png"); 
+    background-color: #cccccc; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.unit1_3 {
+    background-image: url("unit1_3.png"); 
+    background-color: #cccccc; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.unit2 {
+    background-image: url("unit2.png"); 
+    background-color: #cccccc; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+
+/* text, p and other class styles */
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size:100px;
+    text-align: center;   
+}
+
+h4 {
+    font-size:30px;
+    text-align: center;   
+}
+
+p {
+    font-size: 22px;
+    line-height: 150%
+}
+
+.title {
+    margin: 60px 100px;    
+}
+
+.content {
+    background-color: rgba(36, 87, 82, 0.8);
+    padding: 5px 20px 20px;
+    margin: 60px 100px;
+    border-radius: 15px;
+}
+
+.reference {
+    background-color: rgba(36, 87, 82, 0.8);
+    padding: 5px 20px 20px;
+    margin: 60px 100px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+blockquote {
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(136, 191, 185);
+}
+
+/* extra */
+
+.pcontent {
+    background-color: rgba(36, 87, 82, 0.8);
+    padding: 5px 20px 20px;
+    margin: 60px 100px 30px;
+    border-radius: 15px;
+}
+
+.trinket {
+    align-self: center;
+    margin: 10%;
+    margin-block-start: 0px;
+}
